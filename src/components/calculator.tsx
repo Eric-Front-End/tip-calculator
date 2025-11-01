@@ -11,7 +11,7 @@ export const Calculator = () => {
     <div className="bg-White p-8 w-[375px] m-auto rounded-[25px] my-10 md:w-[608px] md:py-12 md:px-20 lg:flex lg:w-[920px] lg:gap-12 lg:p-8" >
       <div className="lg:flex-1" >
         <Input 
-          iconUrl='/images/icon-dollar.svg' 
+          iconUrl='images/icon-dollar.svg' 
           label='Bill' 
           value={store.bill} 
           setValue={store.setBill}

@@ -1,6 +1,6 @@
 {
-  "homepage": "https://Eric-Front-End.github.io/tip-calculator",
-  "name": "tip-calculator-app-ts",
+  "homepage": "https://eric-front-end.github.io/tip-calculator",
+  "name": "tip-calculator",
   "private": true,
   "version": "0.0.0",
   "type": "module",

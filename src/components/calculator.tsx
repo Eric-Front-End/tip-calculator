@@ -28,7 +28,7 @@ export const Calculator = () => {
         </div>
 
         <Input 
-          iconUrl='/images/icon-person.svg' 
+          iconUrl='images/icon-person.svg' 
           label='Number of People' 
           value={store.people}
           setValue={store.setPeople}

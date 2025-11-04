@@ -1,73 +1,52 @@
-# React + TypeScript + Vite
+# Calculadora de Propinas (Tip Calculator App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta es una solución al desafío [Tip calculator app challenge en Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-Qd-OK-ME9). Los desafíos de Frontend Mentor ayudan a mejorar las habilidades de codificación construyendo proyectos realistas.
 
-Currently, two official plugins are available:
+## 🚀 Demo en Vivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Puedes ver el proyecto desplegado y probarlo aquí:
 
-## React Compiler
+**[Ver Demo](https://eric-front-end.github.io/tip-calculator/)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📖 Descripción del Proyecto
 
-## Expanding the ESLint configuration
+El proyecto es una calculadora de propinas interactiva. Permite a los usuarios calcular el monto de la propina y el total a pagar por persona, dividiendo el costo total de la cuenta.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+El diseño sigue un enfoque *mobile-first* y es completamente responsivo, adaptándose a diferentes tamaños de pantalla, desde dispositivos móviles hasta computadoras de escritorio.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Funcionalidades
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+* Ingresar el monto total de la cuenta (Bill).
+* Seleccionar un porcentaje de propina predefinido (5%, 10%, 15%, 25%, 50%).
+* Ingresar un porcentaje de propina personalizado.
+* Especificar el número de personas entre las que se dividirá la cuenta.
+* Ver los resultados calculados en tiempo real:
+    * Monto de la propina (por persona).
+    * Monto total (por persona).
+* Validación de formularios (por ejemplo, no se puede dividir entre cero).
+* Un botón de "Reset" que limpia todas las entradas y resultados.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🛠️ Tecnologías Utilizadas
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Este proyecto fue construido utilizando tecnologías web estándar:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+* **HTML5:** Para la estructura semántica del contenido.
+* **CSS3:** Para los estilos, colores, y el layout. Se utilizó **CSS Grid** y **Flexbox** para crear el diseño responsivo.
+* **JavaScript (Vanilla JS):** Para manejar toda la lógica de la aplicación, los cálculos matemáticos y la manipulación del DOM.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🏁 Cómo Empezar
+
+Si deseas ejecutar este proyecto en tu máquina local, sigue estos pasos:
+
+1.  **Clona el repositorio:**
+    ```bash
+    git clone [https://github.com/Eric-Front-End/tip-calculator.git](https://github.com/Eric-Front-End/tip-calculator.git)
+    ```
+
+2.  **Navega al directorio:**
+    ```bash
+    cd tip-calculator
+    ```
+
+3.  **Abre el proyecto:**
+    Simplemente abre el archivo `index.html` en tu navegador web preferido.

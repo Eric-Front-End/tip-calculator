@@ -1,52 +1,52 @@
-# Calculadora de Propinas (Tip Calculator App)
+# Tip Calculator App
 
-Esta es una solución al desafío [Tip calculator app challenge en Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-Qd-OK-ME9). Los desafíos de Frontend Mentor ayudan a mejorar las habilidades de codificación construyendo proyectos realistas.
+This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-Qd-OK-ME9). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## 🚀 Demo en Vivo
+## 🚀 Live Demo
 
-Puedes ver el proyecto desplegado y probarlo aquí:
+You can view the deployed project and test it live here:
 
-**[Ver Demo](https://eric-front-end.github.io/tip-calculator/)**
+**[View Demo](https://eric-front-end.github.io/tip-calculator/)**
 
-## 📖 Descripción del Proyecto
+## 📖 Project Description
 
-El proyecto es una calculadora de propinas interactiva. Permite a los usuarios calcular el monto de la propina y el total a pagar por persona, dividiendo el costo total de la cuenta.
+This project is an interactive tip calculator. It allows users to calculate the tip amount and the total amount to pay per person, splitting the total cost of the bill.
 
-El diseño sigue un enfoque *mobile-first* y es completamente responsivo, adaptándose a diferentes tamaños de pantalla, desde dispositivos móviles hasta computadoras de escritorio.
+The design follows a *mobile-first* approach and is fully responsive, adapting to different screen sizes, from mobile devices to desktops.
 
-### Funcionalidades
+### Features
 
-* Ingresar el monto total de la cuenta (Bill).
-* Seleccionar un porcentaje de propina predefinido (5%, 10%, 15%, 25%, 50%).
-* Ingresar un porcentaje de propina personalizado.
-* Especificar el número de personas entre las que se dividirá la cuenta.
-* Ver los resultados calculados en tiempo real:
-    * Monto de la propina (por persona).
-    * Monto total (por persona).
-* Validación de formularios (por ejemplo, no se puede dividir entre cero).
-* Un botón de "Reset" que limpia todas las entradas y resultados.
+* Enter the total bill amount.
+* Select a predefined tip percentage (5%, 10%, 15%, 25%, 50%).
+* Enter a custom tip percentage.
+* Specify the number of people to split the bill between.
+* View the calculated results in real-time:
+    * Tip Amount (per person).
+    * Total Amount (per person).
+* Form validation (e.g., cannot divide by zero).
+* A "Reset" button that clears all inputs and results.
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Technologies Used
 
-Este proyecto fue construido utilizando tecnologías web estándar:
+This project was built using standard web technologies:
 
-* **HTML5:** Para la estructura semántica del contenido.
-* **CSS3:** Para los estilos, colores, y el layout. Se utilizó **CSS Grid** y **Flexbox** para crear el diseño responsivo.
-* **JavaScript (Vanilla JS):** Para manejar toda la lógica de la aplicación, los cálculos matemáticos y la manipulación del DOM.
+* **HTML5:** For the semantic structure of the content.
+* **CSS3:** For styling, colors, and layout. **CSS Grid** and **Flexbox** were used to create the responsive design.
+* **JavaScript (Vanilla JS):** To handle all application logic, mathematical calculations, and DOM manipulation.
 
-## 🏁 Cómo Empezar
+## 🏁 Getting Started
 
-Si deseas ejecutar este proyecto en tu máquina local, sigue estos pasos:
+If you wish to run this project on your local machine, follow these steps:
 
-1.  **Clona el repositorio:**
+1.  **Clone the repository:**
     ```bash
     git clone [https://github.com/Eric-Front-End/tip-calculator.git](https://github.com/Eric-Front-End/tip-calculator.git)
     ```
 
-2.  **Navega al directorio:**
+2.  **Navigate to the directory:**
     ```bash
     cd tip-calculator
     ```
 
-3.  **Abre el proyecto:**
-    Simplemente abre el archivo `index.html` en tu navegador web preferido.
+3.  **Open the project:**
+    Simply open the `index.html` file in your preferred web browser.
